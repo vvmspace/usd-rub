@@ -1,0 +1,26 @@
+{
+  "name": "usd-rub",
+  "version": "1.0.0",
+  "description": "USD RUB price based on CBR daily rates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvmspace/usd-rub.git"
+  },
+  "keywords": [
+    "usd",
+    "rub"
+  ],
+  "author": "vvm.space",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvmspace/usd-rub/issues"
+  },
+  "homepage": "https://github.com/vvmspace/usd-rub#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
