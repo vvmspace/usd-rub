@@ -5,14 +5,4 @@ const get = async (count = 1) => {
     return daily.data.Valute.USD.Value * count;
 }
 
-if (!module.parent) {
-
-    const count = process.argv[2] || 1;
-    (async() => {
-        let r = await get(count);
-        console.log(r);
-    })();
-
-}
-
 module.exports = get;
